@@ -74,12 +74,28 @@ Open your browser at [http://localhost:5173](http://localhost:5173).
 | ------------------------------------------------------------------ | ----------------------------------------------------- | ----------------------------------------------------- |
 | ![AddRecipeForm + RecipeList](./src/assets/images/screenshot2.png) | ![RecipeDetails](./src/assets/images/screenshot3.png) | ![EditRecipeForm](./src/assets/images/screenshot.png) |
 
-| Edited Recipe Displayed                                         | Delete Recipe                                        |
-| --------------------------------------------------------------- | ---------------------------------------------------- |
-| ![Edited Recipe Displayed](./src/assets/images/screenshot4.png) | ![DeleteRecipe](./src/assets/images/screenshot5.png) |
+| Edited Recipe Displayed                                         | Delete Recipe                                        | Search Recipe                                                 |
+| --------------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------- |
+| ![Edited Recipe Displayed](./src/assets/images/screenshot4.png) | ![DeleteRecipe](./src/assets/images/screenshot5.png) | ![SarchBar + RecipeList](./src/assets/images/screenshot6.png) |
 
 ---
 
 ## License
 
 MIT License © 2025
+
+---
+
+## Credits
+
+- Project idea & structure inspired by [ALX](https://www.alxafrica.com/) exercises
+- Icons and badges from [Shields.io](https://shields.io/)
+
+---
+
+## Contact
+
+Made with ❤️ by **Mia Mudzingwa**
+
+- GitHub: [Mia06-coder](https://github.com/Mia06-coder)
+- LinkedIn: [mia-mudzingwa](https://www.linkedin.com/in/mia-mudzingwa)

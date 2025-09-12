@@ -30,8 +30,8 @@ const EditRecipeForm = () => {
     );
   }
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = (event) => {
+    event.preventDefault();
     if (!title.trim() || !description.trim()) return;
 
     const updatedRecipe = {

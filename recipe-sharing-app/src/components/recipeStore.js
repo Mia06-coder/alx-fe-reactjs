@@ -8,8 +8,10 @@ import { create } from "zustand";
  * - deleteRecipe(id)
  * - setRecipes(recipes)
  */
-export const useRecipeStore = create((set) => ({
+export const useRecipeStore = create((set, get) => ({
   recipes: [],
+  searchTerm: "",
+  filteredRecipes: [],
 
   // Action: add a new recipe
   addRecipe: (newRecipe) =>
@@ -34,4 +36,18 @@ export const useRecipeStore = create((set) => ({
 
   // Action: clear all recipes
   clearRecipes: () => set({ recipes: [] }),
+
+  // Action: set the search term
+  setSearchTerm: (term) => {
+    set({ searchTerm: term });
+    get().filterRecipes(); // auto-filter when term changes
+  },
+
+  // Action: filter recipes based on search term
+  filterRecipes: () =>
+    set((state) => ({
+      filteredRecipes: state.recipes.filter((recipe) =>
+        recipe.title.toLowerCase().includes(state.searchTerm.toLowerCase())
+      ),
+    })),
 }));

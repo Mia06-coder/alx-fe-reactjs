@@ -51,10 +51,7 @@ const RecipeDetails = () => {
           }}
           aria-label="Edit recipe"
         >
-          Edit Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-          dolore deleniti molestias cumque doloremque nostrum est ducimus
-          necessitatibus, porro, similique in! Similique, nesciunt delectus
-          doloribus ab distinctio veniam! Culpa, adipisci!
+          Edit
         </Link>
         <DeleteRecipeButton id={recipeId} />
         <Link
