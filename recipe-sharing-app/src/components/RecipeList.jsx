@@ -7,6 +7,18 @@ const RecipeList = () => {
     state.searchTerm ? state.filteredRecipes : state.recipes
   );
 
+  const favorites = useRecipeStore((state) => state.favorites);
+  const addFavorite = useRecipeStore((state) => state.addFavorite);
+  const removeFavorite = useRecipeStore((state) => state.removeFavorite);
+
+  const toggleFavorite = (id) => {
+    if (favorites.includes(id)) {
+      removeFavorite(id);
+    } else {
+      addFavorite(id);
+    }
+  };
+
   return (
     <div style={{ marginTop: "2rem" }}>
       <h2 style={{ fontSize: "1.5rem", marginBottom: "1rem" }}>
@@ -37,9 +49,10 @@ const RecipeList = () => {
             alignItems: "center",
           }}
         >
-          {recipes.map((recipe) => (
-            <>
-              {console.log(`rendering recipe id: ${recipe.id}`)}
+          {recipes.map((recipe) => {
+            const isFavorite = favorites.includes(recipe.id);
+
+            return (
               <div
                 key={recipe.id}
                 style={{
@@ -52,6 +65,20 @@ const RecipeList = () => {
                   transition: "transform 0.2s ease-in-out",
                 }}
               >
+                <div style={{ display: "flex", justifyContent: "end" }}>
+                  <button
+                    onClick={() => toggleFavorite(recipe.id)}
+                    style={{
+                      border: "none",
+                      background: "none",
+                      cursor: "pointer",
+                      fontSize: "1.2rem",
+                      outline: "none",
+                    }}
+                  >
+                    {isFavorite ? "❤️" : "🤍"}
+                  </button>
+                </div>
                 <h3 style={{ margin: "0 0 0.5rem 0", color: "#333" }}>
                   {recipe.title}
                 </h3>
@@ -78,8 +105,8 @@ const RecipeList = () => {
                   </Link>
                 </div>
               </div>
-            </>
-          ))}
+            );
+          })}
         </div>
       )}
     </div>

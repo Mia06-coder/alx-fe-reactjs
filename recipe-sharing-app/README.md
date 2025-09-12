@@ -78,6 +78,10 @@ Open your browser at [http://localhost:5173](http://localhost:5173).
 | --------------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------- |
 | ![Edited Recipe Displayed](./src/assets/images/screenshot4.png) | ![DeleteRecipe](./src/assets/images/screenshot5.png) | ![SarchBar + RecipeList](./src/assets/images/screenshot6.png) |
 
+| Favorite Recipes                                      | Recommended Recipes                                         |
+| ----------------------------------------------------- | ----------------------------------------------------------- |
+| ![FavoritesList](./src/assets/images/screenshot7.png) | ![RecommendationsList](./src/assets/images/screenshot8.png) |
+
 ---
 
 ## License
