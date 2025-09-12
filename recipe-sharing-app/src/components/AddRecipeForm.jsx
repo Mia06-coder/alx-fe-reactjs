@@ -30,6 +30,8 @@ const AddRecipeForm = () => {
         background: "#fafafa",
         boxShadow: "0 2px 6px rgba(0,0,0,0.05)",
         marginBottom: "2rem",
+        maxWidth: "600px",
+        margin: "2rem auto",
       }}
     >
       <h2 style={{ margin: 0, fontSize: "1.5rem", color: "#333" }}>

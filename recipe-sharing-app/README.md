@@ -70,7 +70,13 @@ Open your browser at [http://localhost:5173](http://localhost:5173).
 
 ## Preview
 
-![AddRecipeForm + RecipeList ](./src/assets/images/screenshot1.png)
+| Add Recipe & List                                                  | Recipe Details                                        | Edit Recipe Form                                      |
+| ------------------------------------------------------------------ | ----------------------------------------------------- | ----------------------------------------------------- |
+| ![AddRecipeForm + RecipeList](./src/assets/images/screenshot2.png) | ![RecipeDetails](./src/assets/images/screenshot3.png) | ![EditRecipeForm](./src/assets/images/screenshot.png) |
+
+| Edited Recipe Displayed                                         | Delete Recipe                                        |
+| --------------------------------------------------------------- | ---------------------------------------------------- |
+| ![Edited Recipe Displayed](./src/assets/images/screenshot4.png) | ![DeleteRecipe](./src/assets/images/screenshot5.png) |
 
 ---
 
