@@ -80,33 +80,49 @@ export default function Search() {
         onSubmit={handleSubmit}
         className="grid grid-cols-1 md:grid-cols-3 gap-4"
       >
+        <label htmlFor="username" className="sr-only">
+          Username
+        </label>
         <input
+          id="username"
           type="text"
           placeholder="Username"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
           className="px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+          aria-label="Search by GitHub username"
         />
 
+        <label htmlFor="location" className="sr-only">
+          Location
+        </label>
         <input
+          id="location"
           type="text"
           placeholder="Location (e.g. London)"
           value={location}
           onChange={(e) => setLocation(e.target.value)}
           className="px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+          aria-label="Search by GitHub user's location"
         />
 
+        <label htmlFor="min-repos" className="sr-only">
+          Minimum Repositories
+        </label>
         <input
+          id="min-repos"
           type="number"
           placeholder="Min Repos"
           value={minRepos}
           onChange={(e) => setMinRepos(e.target.value)}
           className="px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+          aria-label="Search by GitHub minimum repositories"
         />
 
         <button
           type="submit"
           className="bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 transition md:col-span-3"
+          aria-label="Search GitHub users"
         >
           Search
         </button>
@@ -114,13 +130,24 @@ export default function Search() {
 
       {/* Results Section */}
       <div className="mt-10">
-        {loading && <p className="text-gray-600">Loading...</p>}
-        {error && <p className="text-red-500 mb-2">{error}</p>}
+        {loading && (
+          <p className="text-gray-600" role="status" aria-live="polite">
+            Loading...
+          </p>
+        )}
+        {error && (
+          <p className="text-red-500 mb-2" role="status" aria-live="polite">
+            {error}
+          </p>
+        )}
 
         {users.length > 0 && (
           <>
             <p className="text-gray-500 mb-2">results: {totalCount}</p>
-            <ul className="space-y-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+            <ul
+              className="space-y-4 grid grid-cols-1 md:grid-cols-2 gap-4"
+              aria-label="GitHub user search results"
+            >
               {users.map((user) => (
                 <li
                   key={user.id}
@@ -128,7 +155,9 @@ export default function Search() {
                 >
                   <img
                     src={user.avatar_url}
+                    alt={`Avatar of ${user.login}`}
                     className="w-16 h-16 rounded-full"
+                    loading="lazy"
                   />
                   <div className="flex-1">
                     <h3 className="text-lg font-bold">{user.login}</h3>
@@ -165,6 +194,7 @@ export default function Search() {
               onClick={loadMore}
               className="bg-gray-800 text-white px-5 py-2 rounded-lg font-semibold"
               disabled={loading}
+              aria-label="Load more search results"
             >
               {loading ? "Loading..." : "Load More"}
             </button>

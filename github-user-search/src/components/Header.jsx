@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <header className="bg-white text-gray-700">
+    <header className="bg-white text-gray-700 shadow">
       <nav className="container mx-auto p-4 flex justify-between">
         <h1 className="font-bold text-gray-800">GitHub User Search</h1>
         <div className="space-x-4">
