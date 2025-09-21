@@ -9,6 +9,7 @@ export default function Footer() {
         <Link
           to="https://linkedin.com/in/mia-mudzingwa"
           className="text-blue-600"
+          target="blank"
         >
           Mia Mudzingwa
         </Link>
