@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Spaghetti Carbonara",
+    "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
+    "image": "https://placehold.co/150"
+  },
+  {
+    "id": 2,
+    "title": "Chicken Tikka Masala",
+    "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
+    "image": "https://placehold.co/150"
+  },
+  {
+    "id": 3,
+    "title": "Vegetable Stir Fry",
+    "summary": "A quick and healthy stir fry with a mix of fresh vegetables and a savory sauce.",
+    "image": "https://placehold.co/150"
+  },
+  {
+    "id": 4,
+    "title": "Beef Tacos",
+    "summary": "Crispy taco shells filled with seasoned ground beef, lettuce, cheese, and salsa.",
+    "image": "https://placehold.co/150"
+  },
+  {
+    "id": 5,
+    "title": "Caesar Salad",
+    "summary": "A fresh salad with romaine lettuce, croutons, Parmesan cheese, and Caesar dressing.",
+    "image": "https://placehold.co/150"
+  },
+  {
+    "id": 6,
+    "title": "Chocolate Chip Cookies",
+    "summary": "Classic cookies loaded with chocolate chips, perfect for a sweet treat.",
+    "image": "https://placehold.co/150"
+  },
+  {
+    "id": 7,
+    "title": "Margherita Pizza",
+    "summary": "A simple yet delicious pizza topped with fresh tomatoes, mozzarella cheese, and basil.",
+    "image": "https://placehold.co/150"
+  },
+  {
+    "id": 8,
+    "title": "Grilled Salmon",
+    "summary": "Perfectly grilled salmon fillets served with a side of lemon and herbs.",
+    "image": "https://placehold.co/150"
+  },
+  {
+    "id": 9,
+    "title": "Pancakes",
+    "summary": "Fluffy pancakes served with maple syrup and fresh berries.",
+    "image": "https://placehold.co/150"
+  },
+  {
+    "id": 10,
+    "title": "Greek Salad",
+    "summary": "A refreshing salad with cucumbers, tomatoes, olives, feta cheese, and a tangy dressing.",
+    "image": "https://placehold.co/150"
+  },
+  {
+    "id": 11,
+    "title": "Lentil Soup",
+    "summary": "A hearty and nutritious soup made with lentils, vegetables, and spices.",
+    "image": "https://placehold.co/150"
+  },
+  {
+    "id": 12,
+    "title": "Apple Pie",
+    "summary": "A classic dessert with a flaky crust and a sweet apple filling.",
+    "image": "https://placehold.co/150"
+  }
+]
