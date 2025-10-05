@@ -3,72 +3,274 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "https://placehold.co/150"
+    "image": "https://placehold.co/150",
+    "ingredients": [
+      "200g spaghetti",
+      "100g pancetta or bacon",
+      "2 large eggs",
+      "50g Pecorino Romano cheese, grated",
+      "50g Parmesan cheese, grated",
+      "Freshly ground black pepper",
+      "Salt"
+    ],
+    "instructions": [
+      "Cook spaghetti according to package instructions.",
+      "In a bowl, whisk together eggs and cheese.",
+      "Cook bacon until crispy, then add cooked spaghetti to the pan.",
+      "Remove from heat and quickly mix in the egg mixture.",
+      "Season with black pepper and serve immediately."
+    ]
   },
   {
     "id": 2,
     "title": "Chicken Tikka Masala",
     "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
-    "image": "https://placehold.co/150"
+    "image": "https://placehold.co/150",
+    "ingredients": [
+      "500g chicken breast, cut into chunks",
+      "1 cup yogurt",
+      "2 tbsp lemon juice",
+      "2 tsp ground cumin",
+      "2 tsp ground coriander",
+      "1 tsp turmeric",
+      "1 tsp garam masala",
+      "1 tsp chili powder",
+      "2 cups tomato puree",
+      "1 cup heavy cream",
+      "2 tbsp butter",
+      "3 cloves garlic, minced",
+      "1 inch ginger, grated",
+      "Salt to taste",
+      "Fresh cilantro for garnish"
+    ],
+    "instructions": [
+      "Marinate chicken in yogurt, lemon juice, and spices for at least 1 hour.",
+      "Grill or bake the chicken until cooked through.",
+      "In a pan, melt butter and sauté garlic and ginger.",
+      "Add tomato puree and cook for 10 minutes.",
+      "Stir in cream and simmer for another 10 minutes.",
+      "Add grilled chicken to the sauce and cook for 5 more minutes.",
+      "Garnish with cilantro and serve with rice or naan."
+    ]
   },
   {
     "id": 3,
     "title": "Vegetable Stir Fry",
     "summary": "A quick and healthy stir fry with a mix of fresh vegetables and a savory sauce.",
-    "image": "https://placehold.co/150"
+    "image": "https://placehold.co/150",
+    "ingredients": [
+      "1 tbsp vegetable oil",
+      "2 cloves garlic, minced",
+      "1 inch ginger, grated",
+      "1 red bell pepper, sliced",
+      "1 yellow bell pepper, sliced",
+      "1 cup broccoli florets",
+      "1 cup snap peas",
+      "1 carrot, julienned",
+      "2 tbsp soy sauce",
+      "1 tbsp oyster sauce",
+      "1 tsp sesame oil",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Heat oil in a wok or skillet and sauté garlic and ginger.",
+      "Add vegetables and stir fry for 4-5 minutes until crisp-tender.",
+      "Stir in soy sauce, oyster sauce, and sesame oil.",
+      "Season with salt and pepper, then serve with rice or noodles."
+    ]
   },
   {
     "id": 4,
     "title": "Beef Tacos",
     "summary": "Crispy taco shells filled with seasoned ground beef, lettuce, cheese, and salsa.",
-    "image": "https://placehold.co/150"
+    "image": "https://placehold.co/150",
+    "ingredients": [
+      "500g ground beef",
+      "1 packet taco seasoning",
+      "12 taco shells",
+      "1 cup shredded lettuce",
+      "1 cup diced tomatoes",
+      "1 cup shredded cheddar cheese",
+      "1/2 cup sour cream",
+      "1/2 cup salsa",
+      "Fresh cilantro for garnish"
+    ],
+    "instructions": [
+      "Cook ground beef in a skillet over medium heat until browned.",
+      "Add taco seasoning and simmer with water according to package instructions.",
+      "Warm taco shells in the oven.",
+      "Fill shells with beef, lettuce, tomatoes, cheese, sour cream, and salsa.",
+      "Garnish with cilantro and serve."
+    ]
   },
   {
     "id": 5,
     "title": "Caesar Salad",
     "summary": "A fresh salad with romaine lettuce, croutons, Parmesan cheese, and Caesar dressing.",
-    "image": "https://placehold.co/150"
+    "image": "https://placehold.co/150",
+    "ingredients": [
+      "1 head romaine lettuce, chopped",
+      "1 cup croutons",
+      "1/2 cup grated Parmesan cheese",
+      "1/2 cup Caesar dressing",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Combine lettuce, croutons, and Parmesan in a bowl.",
+      "Drizzle with Caesar dressing and toss.",
+      "Season with salt and pepper and serve immediately."
+    ]
   },
   {
     "id": 6,
     "title": "Chocolate Chip Cookies",
     "summary": "Classic cookies loaded with chocolate chips, perfect for a sweet treat.",
-    "image": "https://placehold.co/150"
+    "image": "https://placehold.co/150",
+    "ingredients": [
+      "1 cup unsalted butter, softened",
+      "1 cup white sugar",
+      "1 cup brown sugar",
+      "2 large eggs",
+      "2 tsp vanilla extract",
+      "3 cups all-purpose flour",
+      "1 tsp baking soda",
+      "1/2 tsp salt",
+      "2 cups chocolate chips"
+    ],
+    "instructions": [
+      "Preheat oven to 180°C (350°F).",
+      "Cream together butter and sugars.",
+      "Beat in eggs and vanilla.",
+      "Mix in flour, baking soda, and salt.",
+      "Fold in chocolate chips.",
+      "Scoop onto baking tray and bake 10-12 minutes."
+    ]
   },
   {
     "id": 7,
     "title": "Margherita Pizza",
     "summary": "A simple yet delicious pizza topped with fresh tomatoes, mozzarella cheese, and basil.",
-    "image": "https://placehold.co/150"
+    "image": "https://placehold.co/150",
+    "ingredients": [
+      "Pizza dough",
+      "1 cup tomato sauce",
+      "200g fresh mozzarella cheese",
+      "2 fresh tomatoes, sliced",
+      "Fresh basil leaves",
+      "Olive oil",
+      "Salt"
+    ],
+    "instructions": [
+      "Preheat oven to 220°C (425°F).",
+      "Roll out pizza dough and spread with tomato sauce.",
+      "Top with mozzarella and tomato slices.",
+      "Bake 10-12 minutes until crust is golden.",
+      "Garnish with basil and drizzle with olive oil."
+    ]
   },
   {
     "id": 8,
     "title": "Grilled Salmon",
     "summary": "Perfectly grilled salmon fillets served with a side of lemon and herbs.",
-    "image": "https://placehold.co/150"
+    "image": "https://placehold.co/150",
+    "ingredients": [
+      "2 salmon fillets",
+      "1 tbsp olive oil",
+      "1 lemon, sliced",
+      "Fresh dill or parsley",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Season salmon with salt, pepper, and olive oil.",
+      "Grill skin side down for 4-5 minutes per side.",
+      "Serve with lemon slices and fresh herbs."
+    ]
   },
   {
     "id": 9,
     "title": "Pancakes",
     "summary": "Fluffy pancakes served with maple syrup and fresh berries.",
-    "image": "https://placehold.co/150"
+    "image": "https://placehold.co/150",
+    "ingredients": [
+      "1 1/2 cups all-purpose flour",
+      "2 tbsp sugar",
+      "1 tbsp baking powder",
+      "1/2 tsp salt",
+      "1 1/4 cups milk",
+      "1 large egg",
+      "2 tbsp melted butter",
+      "Maple syrup and berries for serving"
+    ],
+    "instructions": [
+      "Mix dry ingredients in one bowl, wet ingredients in another.",
+      "Combine and whisk until smooth.",
+      "Pour batter onto a greased pan and cook until golden.",
+      "Serve with maple syrup and berries."
+    ]
   },
   {
     "id": 10,
     "title": "Greek Salad",
     "summary": "A refreshing salad with cucumbers, tomatoes, olives, feta cheese, and a tangy dressing.",
-    "image": "https://placehold.co/150"
+    "image": "https://placehold.co/150",
+    "ingredients": [
+      "2 cucumbers, chopped",
+      "2 tomatoes, chopped",
+      "1/2 cup black olives",
+      "1/2 cup feta cheese, crumbled",
+      "1/4 cup olive oil",
+      "2 tbsp red wine vinegar",
+      "1 tsp dried oregano",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Combine cucumbers, tomatoes, olives, and feta in a bowl.",
+      "Whisk olive oil, vinegar, oregano, salt, and pepper.",
+      "Pour dressing over salad and toss to coat."
+    ]
   },
   {
     "id": 11,
     "title": "Lentil Soup",
     "summary": "A hearty and nutritious soup made with lentils, vegetables, and spices.",
-    "image": "https://placehold.co/150"
+    "image": "https://placehold.co/150",
+    "ingredients": [
+      "1 cup lentils",
+      "1 onion, chopped",
+      "2 carrots, chopped",
+      "2 celery stalks, chopped",
+      "2 cloves garlic, minced",
+      "1 tsp cumin",
+      "1 tsp paprika",
+      "6 cups vegetable broth",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Sauté onion, carrots, celery, and garlic until softened.",
+      "Add lentils, spices, and broth.",
+      "Simmer 30-40 minutes until lentils are tender.",
+      "Season with salt and pepper before serving."
+    ]
   },
   {
     "id": 12,
     "title": "Apple Pie",
     "summary": "A classic dessert with a flaky crust and a sweet apple filling.",
-    "image": "https://placehold.co/150"
+    "image": "https://placehold.co/150",
+    "ingredients": [
+      "2 pie crusts",
+      "6 apples, peeled and sliced",
+      "3/4 cup sugar",
+      "2 tbsp all-purpose flour",
+      "1 tsp cinnamon",
+      "1/4 tsp nutmeg",
+      "1 tbsp lemon juice"
+    ],
+    "instructions": [
+      "Preheat oven to 200°C (400°F).",
+      "Mix apples with sugar, flour, cinnamon, nutmeg, and lemon juice.",
+      "Fill crust with apple mixture, cover with top crust.",
+      "Bake 45-50 minutes until golden brown."
+    ]
   }
 ]
